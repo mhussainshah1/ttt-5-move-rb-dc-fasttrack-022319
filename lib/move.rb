@@ -1,9 +1,13 @@
 def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts " #{board[0].to_i} | #{board[1].to_i} | #{board[2].to_i} "
   puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts " #{board[3].to_i} | #{board[4].to_i} | #{board[5].to_i} "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts " #{board[6].to_i} | #{board[7].to_i} | #{board[8].to_i} "
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index
+  
+end
